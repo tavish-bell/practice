@@ -2,7 +2,7 @@ let boatLaunch = false;
 let gasLevel = 700;
 let crewmateStatus = true;
 let instrumentStatus = `green`;
-if (gaslevel >= 1000) {
+if (gasLevel >= 1000) {
   console.log(`Gas level is good.`);
   boatLaunch = true;
 } else {
